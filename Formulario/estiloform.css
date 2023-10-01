@@ -1,0 +1,32 @@
+body{ background-image: url(../Imagenes/form.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: tit;
+    src: url(../Fuentes/WhiteDreamPERSONALUSEONLY-Regular.otf);
+}
+div{background-color: lightgray;
+    background-position: center;
+    max-width: 800px;
+    padding: 0pt;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;}
+
+    a{text-decoration: none;
+    color: black;}
+    body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    h1{ font-size: 3em;
+        font-family: tit; text-align: center;}
+
+.regreso{margin-left: 100px;
+margin-top: 100px;}
+::placeholder{color: rgb(165, 97, 42);}
+:required{ outline: red;}
+
+
+
+
+
+    

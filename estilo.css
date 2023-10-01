@@ -1,0 +1,300 @@
+@font-face {
+    font-family: tituloprincipal;
+    src: url("Fuentes/Hello.ttf");} /*Fuente para el titulo */
+
+body{ font-family: 'Times New Roman', Times, seri;width: 1200px; align-content: center;
+    background-image: url(Imagenes/fondo2.png);/*Fondo de la pagina*/
+    }
+
+h1{ font-family: tituloprincipal; /*Este es el titulo de la pagina */
+    font-size: 4em;
+    color: black;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: inline-block;
+    width: 1200px;
+}
+:hover h1{text-shadow: rgb(97, 92, 92) 15px 9px 4px;}
+header hr { border: 2px rgb(236, 67, 67) dashed;width: 1400px;}
+
+/*Inicio del navegador*/
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;}
+  li {float:left;}
+    
+nav  li a {
+     color: white;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: solid;
+    font-size: 1.2em;
+    display: flex;}
+
+  nav li a:hover {
+    background-color: rgb(240, 118, 62);
+    border: blanchedalmond solid;}
+    /*Fin del navegador*/
+   
+.varios{
+    font-size: 1.2em;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    width: 1200px;}
+
+/*Inicio del flex*/
+article{ /*Contenedor-flex*/
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+}
+a {text-decoration: none;}
+article section { box-shadow: gray 10px 10px 5px;}
+img{
+    float: left;
+    padding-right: 10px;}
+
+h3{ padding-top: 60px;}
+p {text-align: center;
+padding-right: 30px;
+font-size: 1.250em;}
+
+.facebook{
+    background-color: #3b5998;
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 1;}
+.facebook h3{padding: 15px;}
+.facebook h3:first-letter{color: rgb(250, 246, 246);font-size: 40px;}
+.facebook img{ margin: 5px 5px 5px 0px;}
+.facebook p { font-size: 20px;}
+
+.youtube{
+    background-color: #f1c0be;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 2;}
+.youtube h3{padding-top: 50px;}
+.youtube h3:first-letter{color: rgb(243, 40, 40);font-size: 40px;}
+.youtube img{margin: 5px 5px 5px 0px;}
+.youtube p {font-size: 20px;}
+
+.instagram{
+    background-color: #3f729b;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 3;}
+.instagram h3:first-letter{color:orangered;font-size: 40px;}
+.instagram img{margin: 5px 5px 5px 0px;}
+.instagram p{font-size: 18px;}
+
+.tik_tok{
+    background-color: #010101;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: white;
+    order: 4;}
+
+.tik_tok h3:first-letter{font-size: 40px;}
+.tik_tok img{margin: 5px 1px 15px 10px;}
+.tik_tok p{font-size: 20px;}
+
+.whats{
+    background-color: #25D366;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 5;}
+
+.whats img{float: right;}
+.whats h3{padding-left: 50px; padding-right: 150px;}
+.whats h3:first-letter{ color: rgb(241, 240, 245);font-size: 40px;}
+.whats p{font-size: 20px;}
+.whats h3{padding-top: 35px;}
+
+.snapchat{
+    background-color: yellow;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 6;}
+
+.snapchat img {margin-left: 15px; border-radius: 100px;}
+.snapchat h3:first-letter{ color: rgb(226, 37, 12);font-size: 40px;}
+.snapchat p{font-size: 20px;}
+.snapchat h3{padding-top: 25px;}
+
+.twiter{
+    background-color: white;
+    border:solid 2px black;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 7;}
+
+.twiter h3:first-letter{ color: red;font-size: 40px;}
+.twiter img {margin-bottom: 50px;margin-left: 20px;}
+.twiter p{ font-size: 20px;}
+.twiter h3{ margin-top: 5px;}
+
+.telegram{
+    background-color: turquoise;
+    border:solid 2px black;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 8;}
+.telegram h3:first-letter{ color: rgb(238, 75, 26);font-size: 40px;}
+.telegram p{font-size: 20px;}
+.telegram h3{margin-top: 10px;}
+
+.pinterest{
+    background-color: tomato;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 9;}
+.pinterest h3:first-letter{ color: rgb(5, 88, 84);font-size: 40px;}
+.pinterest p{font-size: 20px;}
+
+.hi5{
+    background-color: #ebb61b;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 250px;
+    color: black;
+    order: 10;}
+.hi5 h3:first-letter{ font-size: 40px;}
+.hi5 img{border-radius: 100px;margin-left: 30px; margin-bottom: 30px;}
+.hi5 p {font-size: 20px;}/*Fin del Flex*/
+
+/*Contenido extra*/
+h2{text-align: center ;}
+h3{text-align: center;}
+ol li p{text-align: justify;
+   font-size: 1.1em ; width: 1200px;}
+
+.tecnica{float:initial; border-radius: 50px; margin-left: 300px;}
+:hover .tecnica{box-shadow: 10px 10px 5px gray;}
+
+table {  /*Diseño de  la tabla*/
+    width:auto;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+} th {background-color: rgb(102, 240, 68);}
+.up{margin-left: 3rem;} /*Flecha hacia el inicio de la pagina*/
+
+/*Para contactar, direccion*/
+.contactar{text-align: left;
+    margin-left: 40px;
+     margin-right: 40px;  }
+ iframe{margin-left: 450px;}
+
+ /*Pie de pagina*/
+footer p {font-size: 18px;text-align: right;}
+.pie_pag{border: 2px rgb(236, 67, 67) dashed;width: 1400px;margin-left: 0px;}
+
+/*La adaptacion del menu y diseño cuando la pantalla sea mas pequeña*/
+   @media screen and (max-width: 600px) {
+    article{ flex-direction: column-reverse; width: 700px;} /*Cambio en vertical del flex*/
+    header hr{width: 700px;}
+
+    /*Cambio del titulo*/
+    h1 {width: 700px;
+        margin-left: 100px;}
+
+        /*adaptacion de los parrafos*/
+    .varios{width: 700px;
+            text-align: justify;
+            margin-left: 40px;
+            margin-right: 40px;}
+    /*Adaptacion del contenido extra*/
+    h2{text-align: center ;}
+    h3{text-align: center;}
+    ol li p{text-align: justify;
+    font-size: 1.1em ; width: 700px;}        
+    .tecnica{margin-left: 100px;}
+    iframe{margin-left: 200px;} /*El google maps*/
+    th {background-color: rgb(50, 181, 233);}
+
+    /*Cambio del navegador en vertical*/
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+        flex-direction: column; 
+      }
+     nav li a {
+        display: block;
+         color: rgb(26, 23, 23);
+        background-color: rgb(218, 116, 33);
+        text-align:center;
+        margin-left: 50px;
+        text-decoration: none;
+        font-weight: solid;
+        font-size: 1.2em;
+        width: 150px;
+        height: 60px;
+        padding-bottom: 10px;
+        border: white solid 3px;}
+
+    .home {height: 30px;
+           text-align: center;
+           padding: 14px 16px;}
+       
+    #contacto{height: 30px;
+           text-align: center;
+           padding: 14px 16px;}
+    
+    nav li a:hover {
+        color: white;
+        background-color: black;
+        border: blanchedalmond solid;}
+
+    body {width: 700px;
+    background-image: url(Imagenes/fondo-600px.png);} /*Cambio de fondo*/
+    .pie_pag{width: 700px;margin-left: 0px;}
+    }

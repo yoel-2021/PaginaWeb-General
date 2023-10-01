@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<form action="../Respuesta/responder.php" method="post">
+    <!--Regresar a la pagina principal-->
+    <br><a class="regreso" href="../index.html"><img src="../Imagenes/icon_home.png" width="70px" height="70px"></a>
+    <link rel="stylesheet" href="estiloform.css">
+    <h1>El impacto de las nuevas tecnologias</h1>
+    
+    <br><div>
+    <br><fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre Completo</label>
+        <input id="nombre" type="text" name="nombre" minlength="5" autofocus><br>
+        <label for="mail">Correo electronico</label>
+        <input id="mail" type="email" name="mail" placeholder="example@gmail.com" required><br>
+        <label for="num">Numero de telefono</label>
+        <input id="num" type="tel" name="num" placeholder="668-998-778" max="9" required>
+    </fieldset>
+
+    <h3><u>Nos gustaria que nos proporciones mas información sobre ti,
+            asi podremos darte una atencion personalizada</u></h3>
+    <p>¿Tienes algunas de estas Dificultades?</p>
+    <label for="dificultad">Dificultad para leer</label>
+    <input id="dificultad" type="checkbox" name="dificultad" checked><br>
+    <label for="concentracion">Problemas de concentracion</label>
+    <input id="concentracion" type="checkbox" name="concentracion"><br>
+    <label for="mucho_ruido">Un ambiente muy ruidoso</label>
+    <input id="mucho_ruido" type="checkbox" name="mucho_ruido"><br>
+    <label for="otr">Otros:</label>
+    <input id="otr" type="text" name="otr"><br>
+
+    <br>
+    <p>¿Tienes un espacio de estudio como este?</p>
+    <a href="../Imagenes/imagen4.jpg" target="blank"><img src="../Imagenes/imagen4.jpg" width="150"
+            height="100"></a><br><br>
+    <label for="positivo">SI</label>
+    <input id="positivo" type="checkbox" name="positivo">
+    <label for="negativo">NO</label>
+    <input id="negativo" type="checkbox" name="negativo"><br>
+    <p class="anuncio">Si tu respuesta es NO, por favor sube una imagen de tu espacio de estudio</p><br>
+    <label for="espacio"><em>Solo se acepta formato JPG/PNG</em></label><br>
+    <br><input id="espacio" type="file" name="espacio" accept="image/jpg, image/png"><br><br><br>
+
+    <!--Botones de enviar y reiniciar-->
+    <input type="submit" value="Enviar">
+    <input type="reset"><br><br>
+    <hr>
+    <p class="final"><strong>Te contactaremos a la mayor brevedad posible</strong></p><br>
+
+
+</div>
+</form>
+
+</html>
